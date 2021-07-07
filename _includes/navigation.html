@@ -1,12 +1,33 @@
 <nav class="container">
-
-<div id="topnav-right">
-  <ul class="nav nav-tabs justify-content-end">
-    {% for item in site.data.navigation %}
-    <li class="nav-item">
-      <a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{item.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+  <div id="topnav-right">
+    <ul class="nav nav-tabs justify-content-end">
+      {% for item in site.data.navigation %}
+      <li class="nav-item">
+        <a
+          class="nav-link {% if page.url == item.link %}active{% endif %}"
+          href="{{ item.link }}"
+          >{{item.name}}</a
+        >
+      </li>
+      {% endfor %}
+      <li class="nav-item">
+        <a class="nav-link" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/home_img1.png"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/home_img2.png"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/home_img3.png"
+        /></a>
+      </li>
+    </ul>
+  </div>
 </nav>

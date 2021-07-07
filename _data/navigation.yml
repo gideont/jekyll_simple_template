@@ -1,10 +1,12 @@
-- name: HOME
+- name: Home
   link: /
-- name: SERVICES
-  link: /services.html  
-- name: ABOUT
-  link: /about.html
-- name: NEWS
-  link: /news.html  
-- name: CONTACT
-  link: /contact.html
+- name: Our Products
+  link: /ourproducts.html
+- name: About Us
+  link: /aboutus.html
+- name: Blog
+  link: /blog.html
+- name: Contact Us
+  link: /contactus.html
+- name: Shop
+  link: /shop.html
