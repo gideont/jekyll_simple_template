@@ -1,0 +1,40 @@
+.placeholder-menu {
+  height: 134px;
+  background-color: white;
+}
+
+.aboutus-header {
+  height: 150px;
+  background-color: #80aaa7;
+}
+
+.aboutus-contents-header {
+  font-size: 28pt;
+  color: #646464;
+  font-weight: bolder;
+  margin: 50px;
+}
+
+.aboutus-contents {
+  width: 1200px;
+  font-size: 24pt;
+  margin: 50px;
+}
+
+.aboutus-contents > div:nth-child(1) {
+  width: 1200px;
+  font-size: 24pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  font-family: Nato Sams TC;
+}
+
+.aboutus-contents > div:nth-child(2) {
+  width: 1200px;
+  font-size: 24pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  font-family: Nato Sams TC;
+}

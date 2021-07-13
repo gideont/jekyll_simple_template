@@ -1,38 +1,5 @@
-<!-- <div id="topnav-right">
-  <ul class="nav nav-tabs justify-content-end">
-    {% for item in site.data.navigation %}
-    <li class="nav-item">
-      <a
-        class="nav-link {% if page.url == item.link %}active{% endif %}"
-        href="{{ item.link }}"
-        >{{item.name}}</a
-      >
-    </li>
-    {% endfor %}
-    <li class="nav-item">
-      <a class="nav-link" href="#">|</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"
-        ><img src="./assets/images/home_img1.png"
-      /></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"
-        ><img src="./assets/images/home_img2.png"
-      /></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"
-        ><img src="./assets/images/home_img3.png"
-      /></a>
-    </li>
-  </ul>
-</div> -->
-
 <div class="top-menu">
-  <nav class="navbar navbar-expand-sm navbar-light">
-  <!-- <nav class="navbar navbar-expand-sm navbar-light"> -->
+  <nav class="navbar navbar-expand-sm navbar-light nav-menu">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button
@@ -49,7 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -71,31 +38,38 @@
               <li><a class="dropdown-item" href="#">Product 3</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+
+          <li class="nav-item nav-menu-words">
+            <a class="nav-link" href="aboutus.html">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+
+          <li class="nav-item nav-menu-words">
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
+
+          <li class="nav-item nav-menu-words">
+            <a class="nav-link" href="faq.html">FAQ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+
+          <li class="nav-item nav-menu-words">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+
+          <li class="nav-item nav-menu-words">
+            <a class="nav-link" href="https://shop.health4u.com.hk">Shop</a>
           </li>
-          <li class="nav-item">
-            |
+
+          <li class="nav-item nav-pipe">
+            | 
           </li>
-          <li class="nav-item">
+
+          <li class="nav-item nav-icon1">
             <img src="./assets/images/home_img1.png" alt="">
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-icon2">
             <img src="./assets/images/home_img2.png" alt="">
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-icon3">
             <img src="./assets/images/home_img3.png" alt="">
           </li>
           <!-- <li class="nav-item">

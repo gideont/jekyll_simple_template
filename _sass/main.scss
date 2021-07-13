@@ -10,13 +10,13 @@
   // margin-bottom: 0px;
   // marginy-right: 0px;
   // margin-left: 0px;
-  position: relative;
+  //position: relative;
   padding: 0px;
-  z-index: 1;
+  //z-index: 1;
 }
 
 #carouselExampleCaptions {
-  border: 3px dotted #3366cc;
+  //border: 3px dotted #3366cc;
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -148,6 +148,36 @@
   background-size: 100%;
   aspect-ratio: 1/1;
   width: 276px;
+}
+
+.home-welcome-header {
+  text-align: center;
+  font-size: 58pt;
+  font-weight: bold;
+  font-family: Lato;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.home-welcome-contents {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: normal;
+  font-family: Noto Sans TC Light;
+  margin-top: 30px;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  z-index: 2;
+}
+
+.home-bottom-leaf {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 
 // bootstrap main grid attemp
@@ -423,4 +453,69 @@ a:active {
     margin-right: 0;
     font-weight: 600;
   }
+}
+
+.nav-menu {
+  font-size: 16pt;
+  font-weight: normal;
+}
+
+.nav-menu-words {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-pipe {
+  text-align: center;
+  padding-top: 6px;
+  padding-right: 10px;
+}
+
+.nav-icon1 {
+  padding-top: 6px;
+  padding-right: 10px;
+  height: 35px;
+  //background-color: springgreen;
+}
+
+.nav-icon2 {
+  padding-top: 6px;
+  padding-right: 10px;
+  height: 35px;
+}
+
+.nav-icon3 {
+  padding-top: 6px;
+  padding-right: 100px;
+  height: 35px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer-row1-bg {
+  background-color: #c5c1c0;
+  height: 200px;
+}
+
+.footer-row1 {
+  //background-color: salmon;
+  margin: auto;
+  width: 1200px;
+}
+
+.footer-row2 {
+  background-color: #918180;
+  height: 60px;
+  font-size: 15pt;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer-col1 {
+  //background-color: yellowgreen;
+  padding: auto;
 }
