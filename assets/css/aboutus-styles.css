@@ -19,6 +19,8 @@
   width: 1200px;
   font-size: 24pt;
   margin: 50px;
+  z-index: 5;
+  position: relative;
 }
 
 .aboutus-contents > div:nth-child(1) {
