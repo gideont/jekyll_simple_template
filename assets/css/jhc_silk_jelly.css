@@ -1,0 +1,85 @@
+#placeholder-menu {
+  height: 134px;
+  background-color: white;
+}
+
+#product_jhc_banner01 {
+  padding-top: 28.96%; /* 556:1920 Aspect Ratio */
+  background-image: url("../images/product_jhc_banner01.jpg");
+  background-size: 100%;
+}
+
+#product_jhc_img01 {
+  padding-top: 27.25%; /* 327:1200 Aspect Ratio */
+  background-image: url("../images/product_jhc_img01.png");
+  background-size: 100%;
+}
+
+#product_description01 {
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  max-width: 1140px;
+  padding: 30px;
+}
+
+#product_jhc_img02 {
+  /* background-color: teal; */
+  text-align: center;
+  margin-top: 30px;
+  margin: auto auto;
+}
+
+.row-maxwidth {
+  margin: auto;
+  max-width: 1140px;
+  background-color: teal;
+  height: 50%;
+}
+
+#product_jhc_img03 {
+  padding-top: 124.96%; /* 696:557 Aspect Ratio */
+  background-image: url("../images/product_jhc_img03.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* below may not be used  */
+
+.aboutus-header {
+  height: 150px;
+  background-color: #80aaa7;
+}
+
+.aboutus-contents-header {
+  font-size: 28pt;
+  color: #646464;
+  font-weight: bolder;
+  margin: 50px;
+}
+
+.aboutus-contents {
+  width: 1200px;
+  font-size: 24pt;
+  margin: 50px;
+  z-index: 5;
+  position: relative;
+}
+
+.aboutus-contents > div:nth-child(1) {
+  width: 1200px;
+  font-size: 24pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  font-family: Nato Sams TC;
+}
+
+.aboutus-contents > div:nth-child(2) {
+  width: 1200px;
+  font-size: 24pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  font-family: Nato Sams TC;
+}
