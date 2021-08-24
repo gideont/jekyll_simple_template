@@ -33,12 +33,12 @@
 .row-maxwidth {
   margin: auto;
   max-width: 1140px;
-  background-color: teal;
+  /* background-color: teal; */
   height: 50%;
 }
 
 #product_jhc_img03 {
-  padding-top: 124.96%; /* 696:557 Aspect Ratio */
+  /* padding-top: 124.96%; 696:557 Aspect Ratio */
   background-image: url("../images/product_jhc_img03.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -82,4 +82,31 @@
   margin-bottom: 50px;
   font-weight: lighter;
   font-family: Nato Sams TC;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+  /* background-color: #aaa; */
+}
+
+.right {
+  width: 75%;
+  /* background-color: #bbb; */
+}
+
+.center {
+  text-align: center;
+}
+
+.whitebg {
+  width: 1200px;
+  background-color: white;
+  padding-bottom: 300px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
