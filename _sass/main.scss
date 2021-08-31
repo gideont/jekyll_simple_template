@@ -218,22 +218,22 @@ body {
 /* unvisited link */
 a:link {
   text-decoration: none;
-  color: green;
+  color: inherit;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: inherit;
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(24, 96, 250);
+  color: inherit;
 }
 
 /* selected link */
 a:active {
-  color: green;
+  color: inherit;
 }
 
 .blockquote-custom {
@@ -458,7 +458,7 @@ img {
 .footer-row2 {
   background-color: #918180;
   height: 60px;
-  font-size: 15pt;
+  font-size: 13pt;
   color: white;
   text-align: center;
   padding-top: 15px;
@@ -467,4 +467,16 @@ img {
 .footer-col1 {
   //background-color: yellowgreen;
   padding: auto;
+}
+
+.footer-menu-header {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #646464;
+}
+
+.footer-menu-item {
+  font-size: 12pt;
+  font-weight: normal;
+  color: #646464;
 }

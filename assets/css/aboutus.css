@@ -3,9 +3,18 @@
   background-color: white;
 }
 
-.aboutus-header {
+.aboutus-banner-bg {
   height: 150px;
   background-color: #80aaa7;
+}
+
+.aboutus-banner {
+  font-size: 28pt;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 0px;
+  padding-top: 50px;
+  position: relative;
 }
 
 .aboutus-contents-header {
@@ -17,7 +26,7 @@
 
 .aboutus-contents {
   width: 1200px;
-  font-size: 24pt;
+  font-size: 20pt;
   margin: 50px;
   z-index: 5;
   position: relative;
@@ -25,7 +34,7 @@
 
 .aboutus-contents > div:nth-child(1) {
   width: 1200px;
-  font-size: 24pt;
+  /* font-size: 24pt; */
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: lighter;
@@ -34,7 +43,7 @@
 
 .aboutus-contents > div:nth-child(2) {
   width: 1200px;
-  font-size: 24pt;
+  /* font-size: 24pt; */
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: lighter;
